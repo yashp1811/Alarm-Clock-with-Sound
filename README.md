@@ -9,18 +9,18 @@ This Python script offers a versatile alarm clock solution, allowing users to se
 1. Asynchronous Sound Playback: The winsound module is used with the SND_ASYNC flag to ensure the sound plays without blocking the script execution.
 
 ## Usage
-Clone the Repository: Clone the repository to your local machine using git clone.
-Run the Script: Execute the script in a Python environment.
-Set Alarm Time: Input the desired alarm time when prompted, following the HH:MM:SS format.
-Alarm Trigger: The script will continuously monitor the current time, and when it matches the set alarm time, the specified sound will play.
+1. Clone the Repository: Clone the repository to your local machine using git clone.
+1. Run the Script: Execute the script in a Python environment.
+1. Set Alarm Time: Input the desired alarm time when prompted, following the HH:MM:SS format.
+1. Alarm Trigger: The script will continuously monitor the current time, and when it matches the set alarm time, the specified sound will play.
 
 ## Customization
-Sound File Replacement: Replace the default "sound.wav" file with any WAV-formatted sound file of your choice.
-Script Modification: Customize the script to fit your preferences or integrate additional features.
+- Sound File Replacement: Replace the default "sound.wav" file with any WAV-formatted sound file of your choice.
+- Script Modification: Customize the script to fit your preferences or integrate additional features.
 
 ## Dependencies
-Python 3.x
-Windows Operating System (due to the use of the winsound module)
+- Python 3.x
+- Windows Operating System (due to the use of the winsound module)
 
 ## Contribution
 Feel free to contribute to the project by suggesting improvements, reporting issues, or implementing additional features. Contributions are welcomed and encouraged!
